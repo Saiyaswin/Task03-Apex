@@ -1,0 +1,271 @@
+/* General page styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Login form container */
+.form-container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+}
+
+/* Heading */
+.form-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Error message */
+.error {
+    background: #ffdddd;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* Input fields */
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* Input focus effect */
+.form-container input:focus {
+    border-color: #6e8efb;
+    box-shadow: 0 0 8px rgba(110, 142, 251, 0.3);
+}
+
+/* Submit button */
+.form-container button {
+    width: 100%;
+    background: #6e8efb;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+}
+
+/* Button hover */
+.form-container button:hover {
+    background: #5a7def;
+}
+
+/* Register link */
+.form-container p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.form-container a {
+    color: #6e8efb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* ===== GENERAL PAGE STYLING ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+
+/* ===== FORM CONTAINERS ===== */
+.form-container,
+.dashboard-container,
+.delete-container {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+/* ===== INPUT FIELDS ===== */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    border-color: #6e8efb;
+    box-shadow: 0 0 8px rgba(110, 142, 251, 0.3);
+}
+
+/* ===== BUTTONS ===== */
+button,
+.submit-btn,
+.update-btn,
+.confirm-delete,
+.cancel-btn,
+.add-btn,
+.edit-btn,
+.delete-btn {
+    display: inline-block;
+    background: #6e8efb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+button:hover,
+.submit-btn:hover,
+.update-btn:hover,
+.add-btn:hover {
+    background: #5a7def;
+}
+
+.edit-btn {
+    background: #4CAF50;
+}
+
+.edit-btn:hover {
+    background: #43a047;
+}
+
+.delete-btn,
+.confirm-delete {
+    background: #e53935;
+}
+
+.delete-btn:hover,
+.confirm-delete:hover {
+    background: #d32f2f;
+}
+
+.cancel-btn {
+    background: #757575;
+}
+
+.cancel-btn:hover {
+    background: #616161;
+}
+
+/* ===== ERROR MESSAGE ===== */
+.error {
+    background: #ffdddd;
+    color: #d8000c;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* ===== DASHBOARD TABLE ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #f4f4f4;
+    font-weight: bold;
+}
+
+tr:hover {
+    background: #f9f9f9;
+}
+
+.action-btns a {
+    margin-right: 5px;
+}
+
+/* ===== DELETE CONFIRM PAGE ===== */
+.delete-container {
+    text-align: center;
+}
+
+.delete-buttons {
+    margin-top: 20px;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #6e8efb;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+    .form-container, .dashboard-container, .delete-container {
+        padding: 20px;
+    }
+
+    table, th, td {
+        font-size: 12px;
+    }
+}
